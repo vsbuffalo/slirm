@@ -9,7 +9,8 @@ If you end up using this in a project, do email to let me know!
 
 ## Example Run
 
-    python  slurm_slim_runner.py --slim '~/src/SLiM_build/slim' --secs-per-job 10 --batch-size 150 --seed 3 config.json
+    python  slurm_slim_runner.py --slim '~/src/SLiM_build/slim' --user myname \
+      --dir output/dir/to/sims --secs-per-job 10 --batch-size 150 --seed 3 config.json
 
 `config.json` is a JSON file with the parameters to simulate under. Currently
 grids work best, but you can also randomly sample parameters (see
