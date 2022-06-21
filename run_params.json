@@ -1,0 +1,14 @@
+{
+  "name": "run_name",
+  "runtype": "grid",
+  "slim": "script.slim",
+  "params":
+     {
+       "N": {"grid": [1000], "type": "int"},
+       "mu": {"grid":[1e-8, 1e-9], "type": "float"},
+       "sh": {"grid": [1e-1, 1e-2, 1e-3], "type": "float"},
+       "rf": {"grid": [1e-9], "type": "float"},
+       "rbp": {"grid": [1e-8], "type": "float"}, 
+       "L": {"grid": [10000], "type": "int"}},
+   "nreps": 10000
+}
